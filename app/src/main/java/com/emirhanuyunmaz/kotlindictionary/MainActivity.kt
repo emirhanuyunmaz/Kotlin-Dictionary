@@ -39,8 +39,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var itemTouchHelper: ItemTouchHelper
     private lateinit var alertView: AlertDialogDictionaryBinding
 
-    //Burada sadece kaydırma ve eklenen elemanların ilk başta gösterilme işlemi kaldı...
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
